@@ -1,0 +1,25 @@
+{
+  "id": "7d013e2b-7051-4250-aa7b-a8ad360fd366",
+  "name": "Tes DGW",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "3.0"
+}
