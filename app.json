@@ -1,6 +1,6 @@
 {
-  "id": "7d013e2b-7051-4250-aa7b-a8ad360fd366",
-  "name": "Tes DGW",
+  "id": "15a2d8b9-f6e8-44e0-aae4-1c172c705af9",
+  "name": "Belajar",
   "publisher": "Default publisher",
   "version": "1.0.0.0",
   "brief": "",
@@ -17,9 +17,10 @@
   "idRanges": [
     {
       "from": 50000,
-      "to": 50149
+      "to": 99999
     }
   ],
+  "contextSensitiveHelpUrl": "https://Belajar.com/help/",
   "showMyCode": true,
   "runtime": "3.0"
 }
