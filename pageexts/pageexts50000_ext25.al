@@ -1,24 +1,34 @@
-pageextension 50000 "Ext Customer Ledger Entries" extends "Customer Ledger Entries"
-{
-    layout
-    {
-        // Add changes to page layout here
-    }
+// pageextension 50000 "Ext Customer Ledger Entries" extends "Customer Ledger Entries"
+// {
+//     layout
+//     {
+//         // Add changes to page layout here
+//     }
 
-    actions
-    {
-        // Add changes to page actions here
-        addlast(Processing)
-        {
-            action("Print")
-            {
-                Caption = 'Print CLE';
-                //Image = 'Print';
-                ApplicationArea = All;
-            }
-        }
-    }
+//     actions
+//     {
+//         // Add changes to page actions here
+//         addlast(Reporting)
+//         {
+//             action("Customer Ledger Entries")
+//             {
+//                 Promoted = true;
+//                 PromotedCategory = Report;
+//                 PromotedIsBig = true;
+//                 Image = Print;
+//                 ApplicationArea = All;
 
-    var
-        myInt: Integer;
-}
+//                 trigger OnAction()
+//                 var
+//                     RecCLE: Record "Cust. Ledger Entry";
+//                 begin
+//                     //Report.Run(Report::);
+//             }
+//         }
+//     }
+
+//     var
+//         myInt: Integer;
+// }
+
+//untuk contoh pengerjaan button report lihat di project dgw pageext50005_ext132.al
